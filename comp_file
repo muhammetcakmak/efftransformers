@@ -1,4 +1,4 @@
-# Comparing with Pistachio datasets
+# Comparing with Grapes datasets
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -69,8 +69,8 @@ def load_images(data_path, target_size=(224, 224)):
     return data_loader
 
 # Data Paths
-train_data_path = "datasets/Pistachio_Dataset/train/"
-test_data_path = "datasets/Pistachio_Dataset/validation/"
+train_data_path = "datasets/Grape_Dataset/train/"
+test_data_path = "datasets/Grape_Dataset/validation/"
 
 # Data Loaders
 train_loader = load_images(train_data_path)
